@@ -45,16 +45,27 @@ Requirements for interfacing with HaptiJordon:
 | e     | Beige       |
 | f     | White       |
 
-# Code Overview
+# System Overview
 
 ## Dependencies
 
 - [Wire.h](https://www.arduino.cc/en/reference/wire) - This library allows you to communicate with I2C / TWI devices.
 - [Adafruit DRV2605 Library](https://github.com/adafruit/Adafruit_DRV2605_Library) - Library for the Adafruit DRV2605L Haptic Driver.
 
+## Hardware Requirements
+
+- Arduino Uno
+- 4x Adafruit DRV2605L
+- 4x Vibrating Motor Disc
+- 1x TCA9548A I2C Multiplexer
+
+### Circuit Diagram
+
+
 ## References
 
 [Adafruit I2C Multiplexer Documentation][1]
+
 [Adafruit DRV2605 Documentation][2]
 
 [1]: https://learn.adafruit.com/adafruit-tca9548a-1-to-8-i2c-multiplexer-breakout/wiring-and-test
