@@ -60,7 +60,7 @@ Requirements for interfacing with HaptiJordon:
 - 1x TCA9548A I2C Multiplexer
 
 ### Circuit Diagram
-
+![HaptiJordon Circuit Diagram](https://github.com/jordones/haptijordon-arduino/blob/master/diagram.png)
 
 ## References
 
